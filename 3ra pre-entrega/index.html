@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>JapónMotos</title>
+  </head>
+  <body>
+      <h1>JapónMotos</h1>
+
+      <h2>Complete los datos</h2>
+      <form class="formulario">
+
+        <p>Ingrese su nombre</p>
+        <input type="text" name="cliente" placeholder="Nombre">
+
+
+        <p>elegí tu marca favorita <br>
+          0 - yamaha <br>
+          1 - honda <br>
+          2 - kawasaki <br>
+          3 - suzuki</p>
+        <input type="number" name="marcas" placeholder="marca">
+
+
+        <p>¿que cilindrada es tu preferida? <br>
+          0 - 150cc <br>
+          1 - 300cc <br>
+          2 - 600cc <br>
+          3 - 1000cc</p>
+        <input type="number" name="cc" placeholder="cilindrada">
+
+
+        <p>Te interesa esta moto?</p>
+        <p> SI / NO</p>
+        <input type="text" name="start" placeholder="si/no"> 
+        <br>
+        <br>
+        <button>TERMINAR</button>
+
+        <main>
+          
+          <h2 class="htmlcliente"></h2>
+          <h2 class="htmlmarca"></h2>
+          <h2 class="htmlcc"></h2>
+          <h2 class="htmlstatus"></h2>
+
+          <h2 id="list"></h2>
+        </main>
+
+      </form>
+
+      <footer>
+        <div class="btn-group">
+
+          <button id="modo" class="btn">Dark Mode</button>
+  
+      </div>
+      </footer>
+
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

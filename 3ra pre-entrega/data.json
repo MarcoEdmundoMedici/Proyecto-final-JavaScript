@@ -1,0 +1,18 @@
+[
+    {"marca" : "Yamaha", "cc" : 150 , "stock" : "disponible" , "id" :1},
+    {"marca" : "Yamaha", "cc" : 300 , "stock" : "disponible" , "id" :2},
+    {"marca" : "Yamaha", "cc" : 600 , "stock" : "sin stock" , "id" :3},
+    {"marca" : "Yamaha", "cc" : 1000 , "stock" : "disponible" , "id" :4},
+    {"marca" : "honda", "cc" : 150 , "stock" : "disponible" , "id" :5},
+    {"marca" : "honda", "cc" : 300 , "stock" : "disponible" , "id" :6},
+    {"marca" : "honda", "cc" : 600 , "stock" : "disponible" , "id" :7},
+    {"marca" : "honda", "cc" : 1000 , "stock" : "sin stock" , "id" :8},
+    {"marca" : "kawasaki", "cc" : 150 , "stock" : "disponible" , "id" :9},
+    {"marca" : "kawasaki", "cc" : 300 , "stock" : "disponible" , "id" :10},
+    {"marca" : "kawasaki", "cc" : 600 , "stock" : "sin stock" , "id" :11},
+    {"marca" : "kawasaki", "cc" : 1000 , "stock" : "disponible" , "id" :12},
+    {"marca" : "suzuki", "cc" : 150 , "stock" : "disponible" , "id" :13},
+    {"marca" : "suzuki", "cc" : 300 , "stock" : "sin stock" , "id" :14},
+    {"marca" : "suzuki", "cc" : 600 , "stock" : "disponible" , "id" :15},
+    {"marca" : "suzuki", "cc" : 1000 , "stock" : "sin stock" , "id" :16} 
+]
